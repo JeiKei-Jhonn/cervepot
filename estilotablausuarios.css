@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Fondo verde claro */
+    color: #1b5e20; /* Texto verde oscuro */
+    background-image: url('fondoregistro.png'); /* Ruta de tu imagen de fondo */
+    background-size: 30%; /* Tamaño de la imagen para que se repita cuatro veces */
+    background-attachment: fixed; /* Para que la imagen de fondo permanezca fija al hacer scroll */
+    background-repeat: repeat; /* Repetir la imagen */
+    background-position: center; /* Centrar la imagen de fondo */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(165, 214, 167, 0.8); /* Fondo del contenedor verde claro con transparencia */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2e7d32; /* Texto del encabezado verde moderado */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    opacity: 0.9; /* Hacer la tabla un poco transparente */
+}
+
+th, td {
+    border: 1px solid #4caf50; /* Bordes de la tabla verdes */
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #81c784; /* Encabezado verde claro */
+    color: #ffffff; /* Texto blanco en el encabezado */
+    opacity: 0.9; /* Mantener el encabezado también un poco transparente */
+}
+
+td {
+    background-color: #c8e6c9; /* Celdas de la tabla verde más claro */
+    opacity: 0.9; /* Mantener las celdas también un poco transparentes */
+}
+
+/* Estilo para los botones dentro de las filas */
+td a.btn, td .btn, .button-container a.btn, .button-container .btn {
+    display: inline-block;
+    margin: 0 5px; /* Espacio entre los botones */
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #4caf50; /* Botones verdes */
+    color: #ffffff; /* Texto blanco en los botones */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+td a.btn:hover, td .btn:hover, .button-container a.btn:hover, .button-container .btn:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el cursor */
+}
+
+/* Contenedor de botones alineados horizontalmente */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+    margin-top: 20px;
+}
+
+.button-container .btn {
+    flex: 1; /* Asegura que todos los botones tengan el mismo tamaño */
+    min-width: 150px; /* Tamaño mínimo de los botones */
+    text-align: center;
+    padding: 10px 20px; /* Espaciado interno de los botones */
+    margin: 10px;
+}

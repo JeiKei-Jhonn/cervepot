@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondoregistro.png');
+    background-size: cover; /* Ajusta el fondo al tamaño de la pantalla */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+}
+
+.container {
+    background-color: transparent; /* Fondo transparente */
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    color: #19501e; /* Texto verde moderado */
+    font-size: 50px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4caf50; /* Botón verde */
+    color: white;
+    padding: 20px 45px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el cursor */
+}
+
+form {
+    width: 100%;
+    max-width: 1300px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 20px auto;
+    padding: 60px; /* Ajusta el padding según tus necesidades */
+    background-color: rgba(165, 214, 167, 0.7); /* Fondo verde claro con transparencia */
+    border-radius: 10px; /* Ajusta el borde redondeado */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px; /* Incrementa el espacio entre las filas */
+}
+
+form label {
+    flex: 1;
+    font-size: 1.2em; /* Incrementa el tamaño del texto */
+    margin-right: 10px;
+}
+
+form input[type="text"] {
+    flex: 2;
+    padding: 15px; /* Incrementa el padding */
+    font-size: 1.2em; /* Incrementa el tamaño del texto */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form textarea {
+    flex: 2;
+    padding: 15px; /* Incrementa el padding */
+    font-size: 1.2em; /* Incrementa el tamaño del texto */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none; /* Opcional: impide que el usuario cambie el tamaño del textarea */
+    height: 100px; /* Ajusta la altura según tus necesidades */
+}
+
+input[type="submit"], .button-container .btn {
+    background-color: #4caf50; /* Botón verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1; /* Asegura que el botón tenga el mismo tamaño */
+    font-size: 1.2em; /* Incrementa el tamaño del texto */
+    padding: 15px; /* Incrementa el padding */
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px; /* Añade un margen superior */
+}
+
+input[type="submit"]:hover, .button-container .btn:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el cursor */
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4caf50; /* Botón verde */
+    color: white;
+    padding: 15px 20px; /* Ajusta el padding */
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    flex: 1; /* Asegura que el botón tenga el mismo tamaño */
+    font-size: 1.2em; /* Incrementa el tamaño del texto */
+}
+
+a:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el cursor */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 20px; /* Espacio entre los botones */
+    margin-top: 30px;
+    width: 100%;
+}
+
+.button-container .btn {
+    flex: 1; /* Asegura que todos los botones tengan el mismo tamaño */
+    min-width: 180px; /* Tamaño mínimo de los botones */
+    text-align: center;
+    padding: 15px 20px; /* Espaciado interno de los botones */
+    margin: 10px;
+    text-decoration: none;
+    background-color: #4caf50; /* Botón verde */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}

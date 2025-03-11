@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondoregistro.png');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #e8f5e9; /* Fondo verde claro */
+    color: #1b5e20; /* Texto verde oscuro */
+}
+
+.container {
+    background-color: rgba(165, 214, 167, 0.8); /* Fondo verde claro con transparencia */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #0d9a19; /* Texto verde moderado */
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4caf50; /* Botón verde */
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el cursor */
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px; /* Reduce el padding del formulario */
+    background-color: rgba(165, 214, 167, 0.8); /* Fondo verde claro con transparencia */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px; /* Reduce el margen inferior de las etiquetas */
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="submit"],
+form select {
+    width: 100%;
+    padding: 8px; /* Reduce el padding de los campos del formulario */
+    margin-bottom: 15px; /* Reduce el margen inferior de los campos del formulario */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white; /* Fondo blanco para que coincida con los inputs */
+    appearance: none; /* Elimina el estilo predeterminado del select */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+form input[type="submit"] {
+    background-color: #4caf50; /* Botón verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el cursor */
+}
+
+form a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4caf50; /* Botón verde */
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form a:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el cursor */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+    margin-top: 15px; /* Reduce el margen superior del contenedor de botones */
+}
+
+.button-container input[type="submit"],
+.button-container a.btn {
+    flex: 1; /* Asegura que todos los botones tengan el mismo tamaño */
+    min-width: 150px; /* Tamaño mínimo de los botones */
+    text-align: center;
+    padding: 8px 15px; /* Reduce el padding interno de los botones */
+    margin: 10px;
+    text-decoration: none;
+    background-color: #4caf50; /* Botón verde */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container a.btn:hover,
+.button-container input[type="submit"]:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el cursor */
+}
+
+form select:focus {
+    outline: none; /* Elimina el contorno cuando el select está enfocado */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Agrega una sombra al enfocarlo */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondoregistro.png');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #e8f5e9; /* Fondo verde claro */
+    color: #1b5e20; /* Texto verde oscuro */
+}
+
+.container {
+    background-color: rgba(165, 214, 167, 0.8); /* Fondo verde claro con transparencia */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #0d9a19; /* Texto verde moderado */
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4caf50; /* Botón verde */
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el cursor */
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px; /* Reduce el padding del formulario */
+    background-color: rgba(165, 214, 167, 0.8); /* Fondo verde claro con transparencia */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px; /* Reduce el margen inferior de las etiquetas */
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="submit"],
+form select {
+    width: 100%;
+    padding: 8px; /* Reduce el padding de los campos del formulario */
+    margin-bottom: 15px; /* Reduce el margen inferior de los campos del formulario */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white; /* Fondo blanco para que coincida con los inputs */
+    appearance: none; /* Elimina el estilo predeterminado del select */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+form input[type="submit"] {
+    background-color: #4caf50; /* Botón verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el cursor */
+}
+
+form a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4caf50; /* Botón verde */
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form a:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el cursor */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+    margin-top: 15px; /* Reduce el margen superior del contenedor de botones */
+}
+
+.button-container input[type="submit"],
+.button-container a.btn {
+    flex: 1; /* Asegura que todos los botones tengan el mismo tamaño */
+    min-width: 150px; /* Tamaño mínimo de los botones */
+    text-align: center;
+    padding: 8px 15px; /* Reduce el padding interno de los botones */
+    margin: 10px;
+    text-decoration: none;
+    background-color: #4caf50; /* Botón verde */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container a.btn:hover,
+.button-container input[type="submit"]:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el cursor */
+}
+
+form select:focus {
+    outline: none; /* Elimina el contorno cuando el select está enfocado */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Agrega una sombra al enfocarlo */
+}
